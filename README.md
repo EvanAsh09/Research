@@ -1,8 +1,6 @@
 # Assignment Tracker
 
-A Django web application created for a research milestone.
-
-The application helps students keep track of assignments by allowing them to add an assignment, select a course, set a due date and priority, add notes, and update the assignment's completion status.
+This app helps students keep track of assignments by allowing them to add an assignment, select a course, set a due date and priority, add notes, and update the assignment's completion status.
 
 ## Features
 
@@ -12,7 +10,7 @@ The application helps students keep track of assignments by allowing them to add
 - Update an assignment from Not Started to In Progress or Completed
 - View all assignments in one list
 
-## Technologies Used
+## Used
 
 - Python
 - Django
