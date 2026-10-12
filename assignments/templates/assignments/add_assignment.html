@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Assignment</title>
+    <link rel="stylesheet" href="{% static 'assignments/styles.css' %}">
+</head>
+<body>
+    <main class="container">
+        <section class="page-header">
+            <div>
+                <p class="eyebrow">Student Planner</p>
+                <h1>Add an Assignment</h1>
+                <p class="subtitle">Enter the details for a new assignment.</p>
+            </div>
+        </section>
+
+        <section class="form-card">
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+
+                <div class="form-actions">
+                    <button class="button" type="submit">Save Assignment</button>
+                    <a class="button button-secondary" href="{% url 'assignment_list' %}">Cancel</a>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
