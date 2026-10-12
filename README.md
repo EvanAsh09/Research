@@ -1,24 +1,21 @@
-# Research
-A Django web application for submitting and managing hotel guest service requests. Guests can create requests for items or services, while staff can view requests and update their status.
+# Assignment Tracker
 
-# Hotel Service Request Tracker
+A Django web application created for a research milestone.
 
-The application allows a guest to submit a hotel service request, such as towels, toiletries, sheets, cleaning, or room service. Each request is saved to the database with a status of Received.
-
-A staff-facing dashboard displays all submitted requests and allows staff to update each request's status to Received, In Progress, or Completed.
+The application helps students keep track of assignments by allowing them to add an assignment, select a course, set a due date and priority, add notes, and update the assignment's completion status.
 
 ## Features
 
-- Submit a hotel service request
-- Enter guest name, room number, request type, and optional notes
-- Save requests to the Django database
-- View submitted request details and current status
-- View all requests on a staff dashboard
-- Update request status
+- Add an assignment
+- Enter an assignment title, course, due date, priority, and notes
+- Save assignments to a Django database
+- View assignment details and completion status
+- Update an assignment from Not Started to In Progress or Completed
+- View all assignments in one list
 
 ## Technologies Used
 
 - Python
 - Django
-- HTML/CSS
+- HTML and CSS
 - SQLite
