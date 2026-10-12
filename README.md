@@ -8,7 +8,6 @@ The application helps students keep track of assignments by allowing them to add
 
 - Add an assignment
 - Enter an assignment title, course, due date, priority, and notes
-- Save assignments to a Django database
 - View assignment details and completion status
 - Update an assignment from Not Started to In Progress or Completed
 - View all assignments in one list
